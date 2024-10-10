@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """Solves the lock boxes puzzle """
-#Authour:Nanjeri
+
 
 def look_next_opened_box(opened_boxes):
     """Looks for the next opened box
     Args:
-       Dictionary which contains boxes already opened
+        opened_boxes (dict): Dictionary which contains boxes already opened
     Returns:
         list: List with the keys contained in the opened box
     """
@@ -19,7 +19,7 @@ def look_next_opened_box(opened_boxes):
 def canUnlockAll(boxes):
     """Check if all boxes can be opened
     Args:
-        List which contain all the boxes with the keys
+        boxes (list): List which contain all the boxes with the keys
     Returns:
         bool: True if all boxes can be opened, otherwise, False
     """
@@ -57,7 +57,7 @@ def canUnlockAll(boxes):
 
 
 def main():
-    """source point"""
+    """Source point"""
     canUnlockAll([[]])
 
 
